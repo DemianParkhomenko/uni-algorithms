@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./build",
+    "target": "ES6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "src",
+    "rootDirs": ["src"],
+    "paths": {
+      "Api/*": ["Api/*"],
+      "Constants/*": ["Constants/*"],
+      "Assignments/*": ["Assignments/*"],
+      "Types/*": ["Types/*"],
+      "Utils/*": ["Utils/*"],
+      "src/*": ["*"]
+    }
+  },
+  "include": ["src"]
+}

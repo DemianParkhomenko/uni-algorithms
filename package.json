@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1",
+    "typescript": "^4.8.4"
+  }
+}
